@@ -36,4 +36,13 @@ Once the profiles are extracted, the main window will display the profiles.
 This main window has the following parts:
 1. Swath profile area (with the max, min and mean elevation, Q1 and Q3 quartiles and profile data. 
 2. THi profile (see Pérez-Peña et al., 2017 for details)
-3. Combo-box to display different swath profiles. The autoscale *axis check* box fixed the horizonal and vertical scales (in case of profiles with different lengths or elevataions)
+3. Combo-box to display the extracted swath profiles. The *Autoscale axis* check-box recalculates horizonal and vertical scales to fit each profile within the window. 
+4. Check-boxes to select which data display in the main window
+5. Buttons to save and export data. The properties button allows to select different display properties.
+
+<img src="https://geolovic.github.io/SwathProfiler_ArcGIS/images/swath_properties.jpg" />
+
+## References
+Pérez-Peña, J. V., Al-Awabdeh, M., Azañón, J. M., Galve, J. P., Booth-Rea, G., & Notti, D. (2017). SwathProfiler and NProfiler: Two new ArcGIS Add-ins for the automatic extraction of swath and normalized river profiles. Computers & Geosciences, 104(135), 150. https://doi.org/10.1016/j.cageo.2016.08.008
+
+
