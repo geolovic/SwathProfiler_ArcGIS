@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SwathProfiler_ArcMap_Addin</Name>
+  <AddInID>{39c4ddc6-254d-484e-a259-37c1add40541}</AddInID>
+  <Description>This Add-In extract swath profiles from feature lines (i.e. regularly spaced longitudinal profiles for a defined width).</Description>
+  <Version>1.0</Version>
+  <Image>Images\SwathProfiler_ArcMap_Addin.png</Image>
+  <Author>J. Vicente Pérez Peña</Author>
+  <Company>J. Vicente Pérez Peña</Company>
+  <Date>26-Jun-14</Date>
+  <Targets>
+    <Target name="Desktop" version="10.1" />
+  </Targets>
+  <AddIn language="CLR4.0" library="SwathProfiler_ArcMap_Addin.dll" namespace="SwathProfiler_ArcMap_Addin">
+    <ArcMap>
+      <Commands>
+        <Button id="J._Vicente_Pérez_SwathProfiler_ArcMap_Addin_SwathProfiler" class="SwathProfiler" message="This Add-In extract swath profiles from feature lines (i.e. regularly spaced longitudinal profiles for a defined width)." caption="SwathProfiler" tip="Extract swath profiles." category="Geomorphic Indexes" image="Images\SwathProfiler.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
